@@ -1,0 +1,85 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: wheat;
+  padding: 20px;
+}
+
+.footer-data {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-details,
+.useful-links,
+.librarian-details {
+  text-align: left;
+  letter-spacing: 1.5px;
+  margin: 15px;
+}
+
+.useful-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.useful-links a {
+  color: wheat;
+  text-decoration: none;
+  margin-bottom: 8px;
+  transition: color 0.3s ease-in-out;
+}
+
+.useful-links a:hover {
+  color: rgb(235, 88, 75);
+}
+
+.contact-details h1,
+.useful-links h1,
+.librarian-details h1 {
+  font-size: 25px;
+  color: rgb(235, 88, 75);
+  padding-bottom: 15px;
+  border-bottom: 3.1px solid rgb(235, 88, 75);
+  width: fit-content;
+}
+
+.contact-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.social-icon {
+  margin: 0 10px;
+  font-size: 24px;
+  color: rgb(235, 88, 75);
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  color: wheat;
+}
+
+.copyright-details {
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.copyright-details p {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 1.15px;
+}
+
+.copyright-details span {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-data {
+    flex-direction: column;
+  }
+}
