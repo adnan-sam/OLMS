@@ -31,7 +31,7 @@ This is an Online Library Management System developed as part of a company assig
 ## Getting Started
 
 1. Clone the repository:
-   git clone https://github.com/your-username/online-library-management-system.git
+   git clone https://github.com/adnan-sam/OLMS.git
 
 2. Navigate to the project directory:
     cd online-library-management-system
